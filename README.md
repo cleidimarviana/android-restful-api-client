@@ -6,6 +6,24 @@ I will not go into details of how to create an Android project since we know how
 
 We will make the call to the API in an AsyncTask.
 
+##The Setup
+
+Let's take care of the depency injection for retrofit and RxJava/RxAndroid:
+
+```
+dependencies {
+    compile 'com.android.support:appcompat-v7:23.1.0'
+    compile 'com.android.support:design:23.1.0'
+    compile 'com.android.support:cardview-v7:23.1.+'
+    compile 'com.android.support:recyclerview-v7:23.1.+'
+    compile 'com.squareup.picasso:picasso:2.5.+'
+}
+```
+Don't forget Android App Permissions in AndroidManifest:
+
+```xml
+<uses-permission android:name="android.permission.INTERNET" />
+```
 
 Extras
 ----
@@ -41,4 +59,3 @@ MIT
 
   [1]: http://developer.android.com/training/material/lists-cards.html
   [2]: http://www.androidhive.info/2015/09/android-material-design-snackbar-example/
-
