@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RESTful Api Client</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="msg_result_error">Sorry, no results found.</string>
+    <string name="msg_connection_error">Connection error. Please your connection setting and try again.</string>
+    <string name="btn_retry">RETRY</string>
+</resources>

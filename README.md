@@ -28,6 +28,10 @@ Screenshots
 ----
 ![alt tag](https://github.com/cleidimarviana/android-restful-api-client/blob/master/screenshots/image3004.png "Layouts")
 
+Feedback
+----
+Questions, comments, and feedback are welcome at cleidimarviana@gmail.com
+
 License
 ----
 
